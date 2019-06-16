@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/benr1312/falling_items_game.git"
   },
+  "engines": {
+    "node": "10.15.3"
+  },
   "author": "Ben Robinson",
   "license": "MIT",
   "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
