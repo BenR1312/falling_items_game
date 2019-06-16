@@ -4,10 +4,9 @@
   "description": "Falling items need to be collected!",
   "main": "src/index.js",
   "scripts": {
-    "build": "webpack --config webpack/prod.js ",
+    "build": "webpack --config webpack/prod.js && http-server ./dist",
     "start": "webpack-dev-server --config webpack/base.js --open"
   },
-  "heroku-run-build-script": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/benr1312/falling_items_game.git"
